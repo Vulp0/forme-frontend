@@ -6,6 +6,11 @@ import Signup from './Signup';
 import Browse from './Browse';
 import Dashboard from './Dashboard';
 import TemplateInfo from './TemplateInfo';
+import CreateTemplate from './CreateTemplate';
+import ManageUsers from './ManageUsers';
+import TemplateList from './TemplateList';
+import CommentList from './CommentList';
+import ResultList from './ResultList';
 
 function App() {
 
@@ -18,6 +23,11 @@ function App() {
         <Route path='/browse' element={<Browse />}></Route>
         <Route path='/template/:templateId' element={<TemplateInfo />}></Route>
         <Route path='/dashboard' element={<Dashboard />}></Route>
+        <Route path='/create' element={<CreateTemplate />}></Route>
+        <Route path='/management' element={<ManageUsers />}></Route>
+        <Route path='/mytemplates' element={<TemplateList />}></Route>
+        <Route path='/comments' element={<CommentList />}></Route>
+        <Route path='/results' element={<ResultList />}></Route>
       </Routes>
     </div>
   )

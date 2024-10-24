@@ -1,0 +1,13 @@
+.templateListPanel table {
+    width: 100%;
+    text-align: start;
+    border-spacing: 0 8px;
+}
+
+.templateListPanel tr {
+    background-color: #1D2747;
+}
+
+.templateListPanel td {
+    vertical-align: top;
+}

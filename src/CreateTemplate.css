@@ -1,0 +1,6 @@
+.selector {
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+    gap: 1rem;
+}

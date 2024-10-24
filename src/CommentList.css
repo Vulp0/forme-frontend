@@ -1,0 +1,15 @@
+.commentListPanel {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.commentListItem {
+    background-color: #1D2747;
+    text-align: left;
+    padding: 12px 8px;
+}
+
+.commentListItem p {
+    margin: 0;
+}

@@ -6,9 +6,7 @@ function Topbar() {
             <a href="/">
                 <h1 className="logoText">For<span>Me</span></h1>
             </a>
-            <span className="material-symbols-outlined menuIcon">
-                menu
-            </span>
+            <span className="material-symbols-outlined menuIcon">menu</span>
         </div>
     )
 }

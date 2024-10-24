@@ -1,0 +1,30 @@
+.resultPanel {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.resultItem {
+    background-color: #1D2747;
+    padding: 16px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.resultItem p {
+    margin: 0;
+}
+
+.resultHead {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: start;
+    font-weight: bold;
+}
+
+.resultBody {
+    text-align: start;
+}
